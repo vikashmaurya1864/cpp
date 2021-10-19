@@ -12,6 +12,6 @@ int main(){
     // we are going to print all number with the help
     for( int j=0;j<5; j++)
     {
-        cout<<"your " <<j+1<<" is here  "<<arr[j]<<endl;
+        cout<<"your " <<j+1<<" is   here  "<<arr[j]<<endl;
     }
 }
