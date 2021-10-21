@@ -1,0 +1,31 @@
+#include<iostream>
+using namespace std;
+
+class lpu
+{   
+    public:
+    int x,y;
+    string name;
+    lpu()
+    {
+      cout<<"my name is not khan my name is vikash singh maurya"<<endl;
+    }
+    lpu(int a, int b)
+    {
+      int c=a+b;
+      cout<<"your sum is "<<c<<endl;
+    }
+    lpu(string x)
+    {
+        name=x;
+        cout<<"my name is here print with the help parameterized constructer "<<name<<endl;
+    }
+};
+    
+int main()
+{
+    lpu obj;
+    lpu obj1(12,14);
+    lpu obj2("vikash");
+    return 0;
+}
