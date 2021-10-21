@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+class lpu 
+{
+    public:
+    
+    void setmethod()
+    {
+     cout<<"this is setmethod define inside of your fuction"<<endl;
+    }
+};
+
+int main()
+{
+    lpu obj1;
+    obj1.setmethod();
+    
+}
